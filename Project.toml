@@ -1,0 +1,14 @@
+name = "copositive-cutting-plane-max-clique"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+COP = "e4093e77-ab84-4316-904f-45ccf48d0df9"
+DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+cutting_plane = "9fd522e4-bf9c-40cb-8b6a-82c5cf6ef275"
+
+[compat]
+DrWatson = "2.7.2"
+julia = "1.6.2"

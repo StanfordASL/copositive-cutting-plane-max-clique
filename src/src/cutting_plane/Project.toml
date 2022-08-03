@@ -1,0 +1,12 @@
+name = "cutting_plane"
+uuid = "9fd522e4-bf9c-40cb-8b6a-82c5cf6ef275"
+authors = ["robinbrown <robinbrown@Robins-MacBook-Pro.local>"]
+version = "0.1.0"
+
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+Gurobi = "2e9cd046-0924-5485-92f1-d5272153d98b"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"

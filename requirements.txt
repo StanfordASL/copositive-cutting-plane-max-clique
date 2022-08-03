@@ -1,0 +1,9 @@
+dill
+dwave-neal
+dwave_networkx
+gurobipy
+hyperopt
+matplotlib
+numpy
+pandas
+scipy

@@ -1,8 +1,10 @@
-# copositive-cutting-plane-max-clique
+# Copositive cutting plane algorithm with Ising solvers and experiments with max-clique
 
 This code base is using the Julia Language and [DrWatson](https://juliadynamics.github.io/DrWatson.jl/stable/)
 to make a reproducible scientific project named
 > copositive-cutting-plane-max-clique
+
+Details of this method can be found in our [arxiv preprint](https://arxiv.org/abs/2207.13630).
 
 To (locally) reproduce this project, do the following:
 
@@ -53,3 +55,14 @@ everything should work out of the box.
 
 5. To generate plots: run cells in notebooks/plotting.ipynb
 	
+To cite this work, you can use the following bibtex citation:
+```
+@misc{brown2022copositive,
+      title={Copositive programming for mixed-binary quadratic optimization via Ising solvers}, 
+      author={Robin Brown and David E. Bernal Neira and Davide Venturelli and Marco Pavone},
+      year={2022},
+      eprint={2207.13630},
+      archivePrefix={arXiv},
+      primaryClass={math.OC}
+}
+```
